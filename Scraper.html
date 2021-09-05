@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPBFrontend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- style for ALL sections -->
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand navbar-light">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    Group 29 - Assignment Investigator
+                </span>
+            </a>
+            <!-- navbar links-->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="Scraper.html" class="nav-link">Scraper</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Documentation.html" class="nav-link">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="AboutTeam.html" class="nav-link">About The Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Support.html" class="nav-link">Support</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="scraper">
+        <div class="container">
+            <div class="text-center">
+                <h2>Scraper</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur adipisci, perspiciatis earum autem necessitatibus officiis sint. Ipsa, asperiores nulla!
+                </p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form>
+                        <label for="assignment-name" class="form-label">Students name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="John">
+
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                          </div>
+
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
